@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Crypto History — A new story from crypto's past, every single day.</title>
+    <meta name="description" content="Daily Crypto History delivers a new story every day about an event or key person in crypto history. Follow us on X and add our free Telegram bot to your groups.">
+    <meta property="og:title" content="Daily Crypto History">
+    <meta property="og:description" content="A new story from crypto's past, every single day.">
+    <meta property="og:image" content="https://dailycryptohistory.xyz/banner.png">
+    <meta property="og:url" content="https://dailycryptohistory.xyz">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@CryptoHistoryX">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Space+Mono:wght@400;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Floating particles background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-inner">
+            <a href="/" class="logo-link">
+                <img src="logo.png" alt="Daily Crypto History" class="logo-img">
+                <span class="logo-text">Daily Crypto History</span>
+            </a>
+            <nav class="nav">
+                <a href="https://x.com/CryptoHistoryX" target="_blank" rel="noopener" class="nav-link">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    <span>Follow</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">Est. 2024</div>
+            <h1 class="hero-title">
+                A new story from<br>
+                <span class="highlight">crypto's past</span>,<br>
+                every single day.
+            </h1>
+            <p class="hero-subtitle">
+                From the genesis block to the latest milestones — we dig into crypto history so you don't have to. One story. Every day. No fluff.
+            </p>
+            <div class="hero-cta">
+                <a href="https://x.com/CryptoHistoryX" target="_blank" rel="noopener" class="btn btn-primary">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    Follow on X
+                </a>
+                <a href="https://t.me/DailyCryptoHistoryBot" target="_blank" rel="noopener" class="btn btn-secondary">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                    Free Telegram Bot
+                </a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="calendar-card">
+                <div class="calendar-top"></div>
+                <div class="calendar-body">
+                    <div class="calendar-date" id="today-date"></div>
+                    <div class="calendar-label">Today in Crypto</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+        <div class="features-grid">
+            <div class="feature-card" style="--delay: 0s">
+                <div class="feature-icon">𝕏</div>
+                <h3>Daily Posts on X</h3>
+                <p>Every day we publish a fascinating piece of crypto history — key events, pivotal people, and forgotten moments that shaped the industry.</p>
+                <a href="https://x.com/CryptoHistoryX" target="_blank" rel="noopener" class="feature-link">@CryptoHistoryX →</a>
+            </div>
+            <div class="feature-card" style="--delay: 0.1s">
+                <div class="feature-icon">🤖</div>
+                <h3>Free Telegram Bot</h3>
+                <p>Add our bot to any Telegram group and it will automatically post the daily crypto history story. Completely free, no setup required.</p>
+                <a href="https://t.me/DailyCryptoHistoryBot" target="_blank" rel="noopener" class="feature-link">Add to Telegram →</a>
+            </div>
+            <div class="feature-card card-highlight" style="--delay: 0.2s">
+                <div class="feature-badge">Closed Alpha</div>
+                <div class="feature-icon">📈</div>
+                <h3><span class="polymarket-text">Polymarket</span> <span style="color:#fff">Trading Bot</span></h3>
+                <p>We've just launched a Polymarket trading bot — currently in closed alpha testing. Open beta coming soon for the public. Stay tuned.</p>
+                <span class="feature-link muted">Open beta coming soon →</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline teaser -->
+    <section class="timeline-section">
+        <h2 class="section-title">The story never stops</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-year">2008</div>
+                <div class="timeline-text">Satoshi publishes the Bitcoin whitepaper</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">2010</div>
+                <div class="timeline-text">10,000 BTC buys two pizzas — the first real-world transaction</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">2013</div>
+                <div class="timeline-text">Vitalik Buterin proposes Ethereum</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">2015</div>
+                <div class="timeline-text">Ethereum mainnet goes live</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">2020</div>
+                <div class="timeline-text">DeFi Summer ignites a new era of decentralized finance</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">2024</div>
+                <div class="timeline-text">Bitcoin spot ETFs approved — crypto meets Wall Street</div>
+            </div>
+        </div>
+        <p class="timeline-cta">Follow along — there's a new story every day.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <img src="logo.png" alt="DCH" class="footer-logo">
+                <span>Daily Crypto History</span>
+            </div>
+            <div class="footer-links">
+                <a href="https://x.com/CryptoHistoryX" target="_blank" rel="noopener">X / Twitter</a>
+                <a href="https://t.me/DailyCryptoHistoryBot" target="_blank" rel="noopener">Telegram Bot</a>
+            </div>
+            <div class="footer-copy">
+                &copy; 2024–2026 Daily Crypto History. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
